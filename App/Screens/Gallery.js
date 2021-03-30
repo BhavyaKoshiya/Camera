@@ -33,11 +33,12 @@ export default function Gallery({ navigation }) {
                 // setImages(result)
                 // let imgpath={...result.path}
                 // console.log(result);
-                result.map((item) => {
+                result.reverse().map((item) => {
                     setImages(images => [...images, 'file://' + item.path])
                     // images.push(item.path)
                     // console.log(item.path);
                 })
+                // images.sort((a, b) => a - b);
                 // console.log(imgpath);
             })
             .catch((err) => {
@@ -115,7 +116,7 @@ export default function Gallery({ navigation }) {
                 backdropColor='#000'
             >
 
-                <View style={{ flex: 1, justifyContent: 'space-evenly', paddingVertical:30 }}>
+                <View style={{ flex: 1, justifyContent: 'space-evenly', paddingVertical: 30 }}>
 
 
                     <View style={{ backgroundColor: '#000', alignSelf: 'flex-end', height: 40, width: 40, justifyContent: 'center', borderRadius: 40, margin: 10 }}>
