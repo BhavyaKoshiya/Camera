@@ -171,12 +171,6 @@ export default function Camera({ navigation }) {
 
                     {/* isRecording ? Nothing : Open Gallery */}
                     {isRecording ?
-                        // <TouchableOpacity
-                        //     style={styles.secondButtonContainer}
-                        //     onPress={() => navigation.navigate('Gallery')}
-                        // >
-                        //     <Image source={galleryIcon} style={styles.secondButtonIcon} />
-                        // </TouchableOpacity>
                         <View style={{ height: 50, width: 50, }} />
                         :
                         <TouchableOpacity
