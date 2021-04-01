@@ -14,6 +14,11 @@ import flashTorchIcon from './flash-torch.png';
 import stopIcon from './stop.png';
 import playIcon from './play.png';
 import pauseIcon from './pause.png';
+import videoIcon from './video.png'
+import forward10Icon from './forward10.png'
+import backward10Icon from './backward10.png'
+import rePlayIcon from './replay.png'
+import exportIcon from './export.png'
 
 
 
@@ -35,5 +40,9 @@ export {
     stopIcon,
     playIcon,
     pauseIcon,
-    
+    forward10Icon,
+    backward10Icon,
+    rePlayIcon,
+    videoIcon,
+    exportIcon,
 }
